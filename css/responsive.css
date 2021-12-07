@@ -1,0 +1,133 @@
+@media only screen and (max-width: 786px) {
+
+    nav{
+        width: 100%;
+    }
+
+   .menu {
+       display: none;
+     
+   }
+   .menu a{
+       display: block;
+       color: black;
+       border-bottom: 1px solid #000000;
+       
+   }
+   .show_menu{
+       background: #ddd;
+       display:block;
+       position: absolute;
+       top: 100%;
+       right: 0px;
+       
+       
+   }
+   .hide_menu{
+       display: none;
+   }
+   .bar{
+       display: block;
+   }
+
+   .bar i {
+       padding-left: 30px;
+       font-size: 40px;
+
+   }
+   header{
+       width: 100%;
+   }
+   section.banner_text> i {
+       font-size: 40px;
+   }
+   section.banner_text h1 {
+       font-size: 35px;
+       line-height: 50px;
+       padding: 18px 0px;
+   }
+   footer#contact {
+    padding: 30px 15px;
+    }
+
+    .copy_wright {
+        font-size: 10px;
+        text-align: center;
+    }
+
+   .description {
+       width: 100%;
+   }
+
+    section.banner_text {
+        width: 100%;
+    }
+    section.banner_text button{
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+    }
+    
+    nav {
+        padding-left: 15px;
+    }
+    
+   
+    
+    .search_area a {
+        padding: 7px 20px;
+    }
+    
+    
+    .contact_box {
+        flex-direction: column;
+    }
+
+    .title_text.aos-init.aos-animate {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .title_text.aos-init.aos-animate h1 {
+        font-size: 35px;
+    }
+    .allService_wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .information, .details, .useful_links, .help_support {
+        background: #232323;
+        padding: 40px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .social_media {
+        width: 85%;
+    }
+   
+
+    .socialmedia_icons {
+        justify-content: center;
+    }
+    .contact_input input:first-child {
+        width: 100%;
+    }
+
+    section.banner_text input {
+        width: 55%;
+    }
+    
+    section.banner_text button {
+        width: 23%;
+    }
+    .natual {
+        width: 100%;
+        padding: 0px 10px;
+        margin:auto
+    }
+    .container ul li {font-size: 18px;}
+   
+}
